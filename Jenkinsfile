@@ -36,7 +36,7 @@ stage('Deploy app container') {
 steps {
 sh "docker rm -f appwebjava"
 sh "docker run -d -p 80:8080 --name appwebjava
-meddeb/appwebjava:1.0.0"
+sanabenbecha/appwebjava:1.0.0"
 }
 }
 }
